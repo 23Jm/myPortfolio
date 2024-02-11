@@ -6,7 +6,7 @@ const Cards = ({image,title}) => {
   return (
     <li>
         <div className={styles.card}>
-            <img src={image}  />
+            <img src={image}  alt='marha'/>
             <div className={styles['card-overlay']}>
                 <div className={styles['card-header']}>
                    <IoIosArrowDroprightCircle size={45}
